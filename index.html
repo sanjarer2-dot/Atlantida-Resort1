@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#24241e">
+  <meta name="description" content="ATLANTIDA RESORT — место для отдыха, уютных встреч и красивых вечеров. Романовка, улица Гагарина, 1Л.">
+  <title>ATLANTIDA RESORT — место, где время замедляется</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header" id="top">
+    <a class="brand" href="#top" aria-label="ATLANTIDA RESORT — главная">
+      <span class="brand-mark">
+        <span>A</span>
+        <i></i>
+      </span>
+      <span class="brand-copy">
+        <strong>ATLANTIDA</strong>
+        <small>RESORT & RESTAURANT</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Открыть меню"
+      aria-expanded="false" aria-controls="navigation">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navigation" id="navigation">
+      <a href="#about">О месте</a>
+      <a href="#spaces">Пространства</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#restaurant">Ресторан</a>
+      <a class="nav-booking" href="#booking">Забронировать <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-background"></div>
+      <div class="hero-shade"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">
+          <span></span>
+          МЕСТО, КУДА ХОЧЕТСЯ ВЕРНУТЬСЯ
+        </p>
+
+        <h1 id="hero-title">
+          Ваше время.<br>
+          Ваше пространство.<br>
+          <em>Ваша ATLANTIDA.</em>
+        </h1>
+
+        <p class="hero-description">
+          Тёплые вечера, архитектура из натурального камня,
+          вкусная кухня и моменты, которые хочется сохранить.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-gold" href="#booking">
+            Запланировать отдых <span>↗</span>
+          </a>
+          <a class="button button-ghost" href="#spaces">
+            Открыть пространства <span>↓</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>РОМАНОВКА · КЫРГЫЗСТАН</span>
+        <span class="hero-scroll">ЛИСТАЙТЕ НИЖЕ <span>↓</span></span>
+        <span>RELAX · REFRESH · RECHARGE</span>
+      </div>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="intro-label">
+        <span class="section-number">01 / О МЕСТЕ</span>
+        <span class="gold-line"></span>
+      </div>
+
+      <div class="intro-content">
+        <p class="eyebrow">АТМОСФЕРА ATLANTIDA</p>
+        <h2>Не просто отдых.<br><em>Особенное состояние.</em></h2>
+        <p class="intro-text">
+          Здесь закаты становятся длиннее, разговоры — теплее,
+          а обычный вечер превращается в воспоминание.
+          Выбирайте настроение и наслаждайтесь каждым моментом.
+        </p>
+        <a class="text-link" href="#spaces">Познакомиться с нами <span>↗</span></a>
+      </div>
+
+      <div class="intro-decoration" aria-hidden="true">
+        <span>A</span>
+        <i></i>
+      </div>
+    </section>
+
+    <section class="spaces section" id="spaces">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">ВАШ ИДЕАЛЬНЫЙ ВЕЧЕР</p>
+          <h2>Пространства <em>для жизни</em></h2>
+        </div>
+        <p>Разные впечатления.<br>Одна особенная атмосфера.</p>
+      </div>
+
+      <div class="spaces-grid">
+        <article class="space-card space-card-large">
+          <div class="space-image space-image-dome" role="img"
+            aria-label="Купол и территория курорта на закате"></div>
+          <div class="space-overlay"></div>
+          <div class="space-content">
+            <span class="space-number">01 / ПОД ОТКРЫТЫМ НЕБОМ</span>
+            <h3>Купол и терраса</h3>
+            <p>Закаты, мягкий свет и время без спешки.</p>
+            <a href="#booking" aria-label="Забронировать купол">↗</a>
+          </div>
+        </article>
+
+        <article class="space-card">
+          <div class="space-image space-image-cabins" role="img"
+            aria-label="Уютная каменная кабинка с тёплым освещением"></div>
+          <div class="space-overlay"></div>
+          <div class="space-content">
+            <span class="space-number">02 / УЕДИНЕНИЕ</span>
+            <h3>Уютные кабинки</h3>
+            <p>Комфортная атмосфера для своих.</p>
+            <a href="#booking" aria-label="Забронировать кабинку">↗</a>
+          </div>
+        </article>
+
+        <article class="space-card">
+          <div class="space-image space-image-restaurant" role="img"
+            aria-label="Интерьер ресторана в натуральных тонах"></div>
+          <div class="space-overlay"></div>
+          <div class="space-content">
+            <span class="space-number">03 / ВКУС И АТМОСФЕРА</span>
+            <h3>Ресторан</h3>
+            <p>Вкусная кухня и встречи, которые затягиваются.</p>
+            <a href="#restaurant" aria-label="Перейти к ресторану">↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="restaurant section" id="restaurant">
+      <div class="restaurant-image" role="img"
+        aria-label="Тёплый интерьер ресторана ATLANTIDA"></div>
+      <div class="restaurant-content">
+        <p class="eyebrow">СОБИРАЕМСЯ ЗА СТОЛОМ</p>
+        <h2>Вкус, который<br><em>объединяет.</em></h2>
+        <p>
+          Уютный интерьер, душевные разговоры и время
+          в компании близких. Создавайте свои традиции в ATLANTIDA.
+        </p>
+        <a class="button button-gold" href="#booking">
+          Запланировать визит <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">В КАЖДОЙ ДЕТАЛИ — АТМОСФЕРА</p>
+          <h2>Увидеть <em>ATLANTIDA</em></h2>
+        </div>
+        <p>Свет, фактуры и детали,<br>из которых складывается отдых.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-item-tall" data-image="dome"
+          aria-label="Открыть фотографию купола">
+          <span class="gallery-photo gallery-photo-dome"></span>
+          <span class="gallery-caption">Вечер под открытым небом <b>↗</b></span>
+        </button>
+
+        <button class="gallery-item" data-image="cabins"
+          aria-label="Открыть фотографию кабинок">
+          <span class="gallery-photo gallery-photo-cabins"></span>
+          <span class="gallery-caption">Архитектура и камень <b>↗</b></span>
+        </button>
+
+        <button class="gallery-item" data-image="restaurant"
+          aria-label="Открыть фотографию ресторана">
+          <span class="gallery-photo gallery-photo-restaurant"></span>
+          <span class="gallery-caption">Тепло внутри <b>↗</b></span>
+        </button>
+
+        <button class="gallery-item gallery-item-wide" data-image="terrace"
+          aria-label="Открыть фотографию террасы">
+          <span class="gallery-photo gallery-photo-terrace"></span>
+          <span class="gallery-caption">Встречать закаты вместе <b>↗</b></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="booking section" id="booking">
+      <div class="booking-copy">
+        <p class="eyebrow">ВАШ ВЕЧЕР НАЧИНАЕТСЯ ЗДЕСЬ</p>
+        <h2>Давайте создадим<br><em>ваш момент.</em></h2>
+        <p>
+          Расскажите, что планируете, — мы поможем
+          сориентироваться и обсудить детали визита.
+        </p>
+
+        <div class="booking-steps">
+          <div><span>01</span><p>Выберите пространство</p></div>
+          <div><span>02</span><p>Укажите дату визита</p></div>
+          <div><span>03</span><p>Обсудите детали с нами</p></div>
+        </div>
+      </div>
+
+      <div class="booking-card">
+        <span class="section-number">ATLANTIDA / BOOKING — 01</span>
+        <h3>Планируем ваш визит</h3>
+        <p>Оставьте свои данные для связи.</p>
+
+        <form id="booking-form">
+          <label for="guest-name">Как к вам обращаться?</label>
+          <input id="guest-name" name="name" type="text"
+            placeholder="Ваше имя" autocomplete="name" required>
+
+          <label for="guest-phone">Номер телефона</label>
+          <input id="guest-phone" name="phone" type="tel"
+            placeholder="+996 ..." autocomplete="tel" required>
+
+          <label for="visit-date">Дата визита</label>
+          <input id="visit-date" name="date" type="date" required>
+
+          <label for="visit-type">Что хотите забронировать?</label>
+          <select id="visit-type" name="space" required>
+            <option value="">Выберите вариант</option>
+            <option value="Купол и терраса">Купол и терраса</option>
+            <option value="Уютная кабинка">Уютная кабинка</option>
+            <option value="Ресторан">Ресторан</option>
+            <option value="Другое">Другое</option>
+          </select>
+
+          <label for="guest-message">Комментарий</label>
+          <textarea id="guest-message" name="message"
+            rows="3" placeholder="Количество гостей, пожелания..."></textarea>
+
+          <button class="button button-gold booking-submit" type="submit">
+            Подготовить заявку <span>↗</span>
+          </button>
+
+          <p class="form-note">
+            Перед отправкой вы сможете проверить данные заявки.
+          </p>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="location section" id="location">
+      <div>
+        <p class="eyebrow">МЫ ЖДЁМ ВАС</p>
+        <h2>Найдите дорогу<br><em>к своему отдыху.</em></h2>
+      </div>
+
+      <div class="location-details">
+        <span class="section-number">АДРЕС КУРОРТА</span>
+        <p>Кыргызстан, Чуйская область,<br>
+          Сокулукский район, село Романовка,<br>
+          улица Гагарина, 1Л</p>
+        <a class="text-link"
+          href="https://www.google.com/maps/search/?api=1&query=Романовка%2C+улица+Гагарина%2C+1Л%2C+Кыргызстан"
+          target="_blank" rel="noopener">
+          Открыть карту <span>↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#top">
+      <span class="brand-mark"><span>A</span><i></i></span>
+      <span class="brand-copy">
+        <strong>ATLANTIDA</strong>
+        <small>RESORT & RESTAURANT</small>
+      </span>
+    </a>
+
+    <p>RELAX · REFRESH · RECHARGE</p>
+    <a href="#top" class="back-top">НАВЕРХ ↑</a>
+    <small class="copyright">© <span id="year"></span> ATLANTIDA RESORT</small>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Закрыть просмотр">×</button>
+    <button class="lightbox-prev" aria-label="Предыдущее фото">←</button>
+    <img src="" alt="Фотография ATLANTIDA RESORT">
+    <button class="lightbox-next" aria-label="Следующее фото">→</button>
+    <p class="lightbox-counter"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
